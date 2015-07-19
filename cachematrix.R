@@ -1,3 +1,4 @@
+## Final Version to Submit
 ## This function creates a special "matrix" object that can cache its inverse.
 ## Returns a list of functions, set/get matrix set/get inverse
 ## this list will be used as the input to cacheSolve()
@@ -18,9 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
     ##return the list of functions        
     list(set=set, get=get, setinv=setinv, getinv=getinv)
 }
-
-
-
 
 
 
